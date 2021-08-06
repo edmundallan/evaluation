@@ -59,7 +59,7 @@ include '../db_connect.php';
 				<table class="table table-condensed" id="r-list">
 					<thead>
 						<tr>
-							<th>Faculty</th>
+							<th>Lecturer</th>
 							<th>Class</th>
 							<th>Subject</th>
 							<th>Action</th>

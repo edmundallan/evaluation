@@ -19,8 +19,8 @@ header("location:index.php?page=home");
 
 ?>
 <?php include 'header.php' ?>
-<body class="hold-transition login-page bg-black">
-  <h2><b><?php echo $_SESSION['system']['name'] ?> - Admin</b></h2>
+<body class="hold-transition login-page">
+  <h2><b><?php echo $_SESSION['system']['name'] ?></b></h2>
 <div class="login-box">
   <div class="login-logo">
     <a href="#" class="text-white"></a>
@@ -49,7 +49,7 @@ header("location:index.php?page=home");
           <label for="">Login As</label>
           <select name="login" id="" class="custom-select custom-select-sm">
             <option value="3">Student</option>
-            <option value="2">Faculty</option>
+            <option value="2">Lecturer</option>
             <option value="1">Admin</option>
           </select>
         </div>

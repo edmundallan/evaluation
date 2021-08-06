@@ -66,7 +66,7 @@ function ordinal_suffix($num){
 				</div>
 				<div class="card-body">
 					<fieldset class="border border-info p-2 w-100">
-					   <legend  class="w-auto">Rating Legend</legend>
+					   <legend  class="w-auto">Rating</legend>
 					   <p>5 = Strongly Agree, 4 = Agree, 3 = Uncertain, 2 = Disagree, 1 = Strongly Disagree</p>
 					</fieldset>
 					<form id="order-question">
@@ -85,6 +85,7 @@ function ordinal_suffix($num){
 								<th class="text-center">3</th>
 								<th class="text-center">2</th>
 								<th class="text-center">1</th>
+								
 							</tr>
 						</thead>
 						<tbody class="tr-sortable">

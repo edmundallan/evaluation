@@ -19,7 +19,7 @@
 					<tr>
 						<th class="text-center">#</th>
 						<th>Code</th>
-						<th>Subject</th>
+						<th>Unit</th>
 						<th>Description</th>
 						<th>Action</th>
 					</tr>

@@ -8,7 +8,7 @@
 				<div class="row">
 					<div class="col-md-6 border-right">
 						<div class="form-group">
-							<label for="" class="control-label">School ID</label>
+							<label for="" class="control-label">Students ID</label>
 							<input type="text" name="school_id" class="form-control form-control-sm" required value="<?php echo isset($school_id) ? $school_id : '' ?>">
 						</div>
 						<div class="form-group">
@@ -20,7 +20,7 @@
 							<input type="text" name="lastname" class="form-control form-control-sm" required value="<?php echo isset($lastname) ? $lastname : '' ?>">
 						</div>
 						<div class="form-group">
-							<label for="" class="control-label">Class</label>
+							<label for="" class="control-label">Class/Semester</label>
 							<select name="class_id" id="class_id" class="form-control form-control-sm select2">
 								<option value=""></option>
 								<?php 
@@ -32,7 +32,7 @@
 							</select>
 						</div>
 						<div class="form-group">
-							<label for="" class="control-label">Avatar</label>
+							<label for="" class="control-label">displayImg</label>
 							<div class="custom-file">
 		                      <input type="file" class="custom-file-input" id="customFile" name="img" onchange="displayImg(this,$(this))">
 		                      <label class="custom-file-label" for="customFile">Choose file</label>

@@ -11,10 +11,10 @@
 				<thead>
 					<tr>
 						<th class="text-center">#</th>
-						<th>School ID</th>
+						<th>Students ID</th>
 						<th>Name</th>
 						<th>Email</th>
-						<th>Current Class</th>
+						<th>Current Semester/Class</th>
 						<th>Action</th>
 					</tr>
 				</thead>

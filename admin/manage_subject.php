@@ -8,15 +8,15 @@ if(isset($_GET['id'])){
 }
 ?>
 <div class="container-fluid">
-	<form action="" id="manage-subject">
+	<form action="" id="manage-unit">
 		<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
 		<div id="msg" class="form-group"></div>
 		<div class="form-group">
-			<label for="subject" class="control-label">Subject Code</label>
+			<label for="subject" class="control-label">UnitCode</label>
 			<input type="text" class="form-control form-control-sm" name="code" id="code" value="<?php echo isset($code) ? $code : '' ?>" required>
 		</div>
 		<div class="form-group">
-			<label for="subject" class="control-label">Subject</label>
+			<label for="subject" class="control-label">unit</label>
 			<input type="text" class="form-control form-control-sm" name="subject" id="subject" value="<?php echo isset($subject) ? $subject : '' ?>" required>
 		</div>
 		<div class="form-group">
@@ -27,7 +27,7 @@ if(isset($_GET['id'])){
 </div>
 <script>
 	$(document).ready(function(){
-		$('#manage-subject').submit(function(e){
+		$('#manage-unit').submit(function(e){
 			e.preventDefault();
 			start_load()
 			$('#msg').html('')

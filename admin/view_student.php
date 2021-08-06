@@ -25,9 +25,9 @@ $class = $classes->num_rows > 0 ? $classes->fetch_array()['class'] : 'N/A';
       <div class="card-footer">
         <div class="container-fluid">
           <dl>
-            <dt>School ID</dt>
+            <dt>Students ID</dt>
             <dd><?php echo $school_id ?></dd>
-            <dt>Current Class</dt>
+            <dt>Current Semester/Class</dt>
             <dd><?php echo $class ?></dd>
           </dl>
         </div>

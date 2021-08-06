@@ -16,7 +16,7 @@
 							<input type="text" name="lastname" class="form-control form-control-sm" required value="<?php echo isset($lastname) ? $lastname : '' ?>">
 						</div>
 						<div class="form-group">
-							<label for="" class="control-label">Avatar</label>
+							<label for="" class="control-label">displayImg</label>
 							<div class="custom-file">
 		                      <input type="file" class="custom-file-input" id="customFile" name="img" onchange="displayImg(this,$(this))">
 		                      <label class="custom-file-label" for="customFile">Choose file</label>

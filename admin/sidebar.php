@@ -1,7 +1,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <div class="dropdown">
    	<a href="./" class="brand-link">
-        <h3 class="text-center p-0 m-0"><b>Admin Panel</b></h3>
+        <h3 class="text-center p-0 m-0"><b>Faculty ADMIN</b></h3>
 
     </a>
       
@@ -13,7 +13,7 @@
             <a href="./" class="nav-link nav-home">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                Menu
               </p>
             </a>
           </li>
@@ -21,7 +21,7 @@
             <a href="./index.php?page=subject_list" class="nav-link nav-subject_list">
               <i class="nav-icon fas fa-th-list"></i>
               <p>
-                Subjects
+                Course units
               </p>
             </a>
           </li> 
@@ -61,7 +61,7 @@
             <a href="#" class="nav-link nav-edit_faculty">
               <i class="nav-icon fas fa-user-friends"></i>
               <p>
-                Faculties
+                Lecturers
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>

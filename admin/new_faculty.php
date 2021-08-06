@@ -3,12 +3,12 @@
 <div class="col-lg-12">
 	<div class="card">
 		<div class="card-body">
-			<form action="" id="manage_faculty">
+			<form action="" id="manage_lecturer">
 				<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
 				<div class="row">
 					<div class="col-md-6 border-right">
 						<div class="form-group">
-							<label for="" class="control-label">School ID</label>
+							<label for="" class="control-label">Lecturer ID</label>
 							<input type="text" name="school_id" class="form-control form-control-sm" required value="<?php echo isset($school_id) ? $school_id : '' ?>">
 						</div>
 						<div class="form-group">
@@ -22,7 +22,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="form-group">
-							<label for="" class="control-label">Avatar</label>
+							<label for="" class="control-label">displayImg</label>
 							<div class="custom-file">
 		                      <input type="file" class="custom-file-input" id="customFile" name="img" onchange="displayImg(this,$(this))">
 		                      <label class="custom-file-label" for="customFile">Choose file</label>
@@ -89,7 +89,7 @@
 	        reader.readAsDataURL(input.files[0]);
 	    }
 	}
-	$('#manage_faculty').submit(function(e){
+	$('#manage_lecturer').submit(function(e){
 		e.preventDefault()
 		$('input').removeClass("border-danger")
 		start_load()

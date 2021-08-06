@@ -3,7 +3,7 @@
 	<div class="card card-outline card-success">
 		<div class="card-header">
 			<div class="card-tools">
-				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./index.php?page=new_faculty"><i class="fa fa-plus"></i> Add New Faculty</a>
+				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./index.php?page=new_faculty"><i class="fa fa-plus"></i> Add New Lecturer</a>
 			</div>
 		</div>
 		<div class="card-body">
@@ -11,7 +11,7 @@
 				<thead>
 					<tr>
 						<th class="text-center">#</th>
-						<th>School ID</th>
+						<th> Lecturer ID</th>
 						<th>Name</th>
 						<th>Email</th>
 						<th>Action</th>

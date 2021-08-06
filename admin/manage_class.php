@@ -12,7 +12,7 @@ if(isset($_GET['id'])){
 		<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
 		<div id="msg" class="form-group"></div>
 		<div class="form-group">
-			<label for="curriculum" class="control-label">Curriculum</label>
+			<label for="curriculum" class="control-label">Class</label>
 			<input type="text" class="form-control form-control-sm" name="curriculum" id="curriculum" value="<?php echo isset($curriculum) ? $curriculum : '' ?>" required>
 		</div>
 		<div class="form-group">
@@ -20,7 +20,7 @@ if(isset($_GET['id'])){
 			<input type="text" class="form-control form-control-sm" name="level" id="level" value="<?php echo isset($level) ? $level : '' ?>" required>
 		</div>
 		<div class="form-group">
-			<label for="section" class="control-label">Section</label>
+			<label for="section" class="control-label">Semester</label>
 			<input type="text" class="form-control form-control-sm" name="section" id="section" value="<?php echo isset($section) ? $section : '' ?>" required>
 		</div>
 		
